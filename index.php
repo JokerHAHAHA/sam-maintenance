@@ -19,21 +19,23 @@
 
 
     <body>
-        <p id="num">04 79 37 16 29</p>
         <header>
-            <img class="navbar-fixed-top" id="imgonglet" src="img/onglet.png" alt="onglet contact de la société sam" />
-            <!--<nav class="navbar navbar-default navbar-fixed-top">
-                <div class="container">
-                    <ul class="nav nav-pills">
-                        <li role="presentation"><a href="#">ACCUEIL</a></li>
-                        <li role="presentation"><a href="#">CHANTIER</a></li>
-                        <li role="presentation"><a href="#">DEVIS</a></li>
-                        <li role="presentation"><a href="#">PARTENAIRES</a></li>
-                        <li role="presentation"><a href="#">BONNES AFFAIRES</a></li>
-                        <li role="presentation"><a href="#">CONTACT</a></li>
-                    </ul>
-                </div>
-            </nav>-->
+            <div class="onglet navbar-fixed-top">
+                <img id="imgonglet" src="img/onglet.png" alt="onglet contact de la société sam" />
+                <p id="num">04 79 37 16 29</p>
+            </div>
+            <nav class="navbar navbar-default navbar-fixed-top">
+<div class="container">
+<ul class="nav nav-pills">
+<li role="presentation"><a href="#">ACCUEIL</a></li>
+<li role="presentation"><a href="#">CHANTIER</a></li>
+<li role="presentation"><a href="#">DEVIS</a></li>
+<li role="presentation"><a href="#">PARTENAIRES</a></li>
+<li role="presentation"><a href="#">BONNES AFFAIRES</a></li>
+<li role="presentation"><a href="#">CONTACT</a></li>
+</ul>
+</div>
+</nav>
 
             <div id="conteneur">
                 <div id="pendulaire">
