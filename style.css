@@ -1,0 +1,86 @@
+*
+{
+    margin: 0;
+    padding: 0;    
+}
+body
+{
+    padding-top: 75px;
+    width: 100%;
+}
+header
+{
+    position: relative;
+    width: 100%;
+    border: 1px solid blue;
+}
+#imgonglet
+{
+    z-index: 2500;
+    width: 100%;
+    height: 43px;
+}
+#num
+{
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+}
+.navbar
+{
+    background-color: rgba(255,255,255,0.8);
+    background-image: none;
+    top: 25px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.7);
+}
+.nav>li>a 
+{
+    border-radius: 0;
+    color: #FF0000;
+    font-weight: bold;
+    line-height: 30px;
+    transition-duration: 0.5s;
+}
+.nav>li>a:hover
+{
+    background-color: rgba(255,0,0,1);
+    color: #FFFFFF;
+    transition-duration: 0.1s;
+}
+#conteneur
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#conteneur div
+{
+    overflow-y: hidden;
+    width: 25%;
+    height: 500px;
+    transition-duration: 1s;
+    border: 3px solid #FFFFFF;
+}
+#conteneur div:hover
+{
+    width: 40%;
+    transition-duration: 1s;
+}
+#conteneur div img
+{
+    width: 100%;
+    height: 500px;
+}
+#slogan
+{
+    position: absolute;
+    bottom : 0;
+    width: 100%;
+    height: 10%;
+    vertical-align: middle;
+    background-color: rgba(255,0,0,0.9);
+    text-align: center;
+    font-size: 200%;
+    color: #FFFFFF;    
+}
