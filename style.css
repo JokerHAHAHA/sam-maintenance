@@ -5,6 +5,10 @@
     font-family: 'roboto', calibri, sans-serif;
     /*border: 1px solid blue;*/
 }
+em
+{
+    font-style: normal;
+}
 body
 {
     width: 100%;
@@ -59,10 +63,11 @@ header
 /*LA BARRE DE NAVIGATION FIXE*/
 .navbar
 {
+    height: 53px;
     background-color: rgba(255,255,255,0.8);
     background-image: none;
     border-bottom: 5px solid rgba(192,57,43,1);
-    padding-left: 17%;
+    padding-left: 5%;
     top: 25px;
     box-shadow: 0 10px 10px rgba(0,0,0,0.7);
 }
@@ -80,12 +85,14 @@ nav>div>ul>img
     font-weight: bold;
     line-height: 30px;
     transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
 }
 .nav>li>a:hover
 {
     background-color: rgba(192,57,43,1);
     color: #FFFFFF;
-    transition-duration: 0.5s; 
+    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
 }
 
 /*LES IMAGES DU HEADER*/
@@ -106,6 +113,7 @@ nav>div>ul>img
     width: 25%;
     height: 500px;
     transition-duration: 0.7s;
+    -webkit-transition-duration: 0.7s;
     border: 3px solid #FFFFFF;
 }
 #slogan
@@ -132,6 +140,8 @@ nav>div>ul>img
     height: 100%;
     transition-delay: 0.5s;
     transition-duration: 1s;
+    -webkit-transition-delay: 0.5s;
+    -webkit-transition-duration: 1s;
 }
 #pendulaire>h2
 {
@@ -164,17 +174,21 @@ nav>div>ul>img
 {
     width: 60%;
     transition-duration: 1s;
+    -webkit-transition-duration: 1s;
 }
 #pendulaire:hover #txtpendulaire
 {
     opacity: 1;
     transition-delay: 0.5s;
     transition-duration: 1s;
+    -webkit-transition-delay: 0.5s;
+    -webkit-transition-duration: 1s;
 }
 #pendulaire:hover #grispendulaire
 {
     background-color: rgba(0,0,0,0.6);
     transition-duration: 1s;
+    -webkit-transition-duration: 1s;
 }
 
 /*DEUXIEME IMAGE DU HEADER*/
@@ -189,6 +203,8 @@ nav>div>ul>img
     height: 100%;
     transition-delay: 0.5s;
     transition-duration: 1s;
+    -webkit-transition-delay: 0.5s;
+    -webkit-transition-duration: 1s;
 }
 #dechets>h2
 {
@@ -222,11 +238,14 @@ nav>div>ul>img
     opacity: 1;
     transition-delay: 0.5s;
     transition-duration: 1s;
+    -webkit-transition-delay: 0.5s;
+    -webkit-transition-duration: 1s;
 }
 #dechets:hover #grisdechets
 {
     background-color: rgba(0,0,0,0.6);
     transition-duration: 1s;
+    -webkit-transition-duration: 1s;
 }
 
 /*TROISIEME IMAGE DU HEADER*/
@@ -241,6 +260,8 @@ nav>div>ul>img
     height: 100%;
     transition-delay: 0.5s;
     transition-duration: 1s;
+    -webkit-transition-delay: 0.5s;
+    -webkit-transition-duration: 1s;
 }
 #concasseur>h2
 {
@@ -275,11 +296,14 @@ nav>div>ul>img
     opacity: 1;
     transition-delay: 0.5s;
     transition-duration: 1s;
+    -webkit-transition-delay: 0.5s;
+    -webkit-transition-duration: 1s;
 }
 #concasseur:hover #grisconcasseur
 {
     background-color: rgba(0,0,0,0.6);
     transition-duration: 1s;
+    -webkit-transition-duration: 1s;
 }
 
 /*QUATRIEME IMAGE DU HEADER*/
@@ -294,6 +318,8 @@ nav>div>ul>img
     height: 100%;
     transition-delay: 0.5s;
     transition-duration: 1s;
+    -webkit-transition-delay: 0.5s;
+    -webkit-transition-duration: 1s;
 }
 #bois>h2
 {
@@ -327,20 +353,64 @@ nav>div>ul>img
     opacity: 1;
     transition-delay: 0.5s;
     transition-duration: 1s;
+    -webkit-transition-delay: 0.5s;
+    -webkit-transition-duration: 1s;
 }
 #bois:hover #grisbois
 {
     background-color: rgba(0,0,0,0.6);
     transition-duration: 1s;
+    -webkit-transition-duration: 1s;
 }
 
+/*LES VALEURS DE LA SAM DANS UNE FLEXBOX*/
+#valeurs
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 6%;
+    width: 100%;
+}
+#valeurs>p
+{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 3%;
+    font-size: 200%;
+    color: rgba(192,57,43,1);
+}
+#valeurs>div
+{
+    text-align: center;
+    width: 20%;
+}
+#valeurs>div>img
+{
+    width: 50%;
+}
+#valeurs>div>p
+{
+    display: inline-block;
+    margin-top: 10%;
+    width: 80%;
+    text-align: justify;
+}
+#valeurs>div>p>span
+{
+    display: block;
+    text-align: center;
+    margin-bottom: 5%;
+    color: rgba(192,57,43,1);
+    font-weight: bold;
+}
 
 /*LA CARTE GOOGLE MAP*/
 #carte
 {
     text-align: center;
     width: 100%;
-    margin: 50px auto;
+    margin: 100px auto;
 }
 
 
