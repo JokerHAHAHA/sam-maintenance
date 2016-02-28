@@ -10,8 +10,18 @@ em
     font-style: normal;
 }
 body
+
 {
     width: 100%;
+}
+body>img
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 720px;
 }
 
 /*EN TETE JUSQU'AU SLOGAN*/
@@ -19,6 +29,8 @@ header
 {
     position: relative;
     width: 100%;
+    height: 645px;
+    border-bottom: 7px solid #FFFFFF;
 }
 
 /*BARRE ROUGE FIXE TOUT EN HAUT*/
@@ -111,9 +123,9 @@ nav>div>ul>img
     overflow-y: hidden;
     overflow-x: hidden;
     width: 25%;
-    height: 500px;
-    transition-duration: 0.7s;
-    -webkit-transition-duration: 0.7s;
+    height: 640px;
+    transition-duration: 2s;
+    -webkit-transition-duration: 2s;
     border: 3px solid #FFFFFF;
 }
 #slogan
@@ -121,7 +133,7 @@ nav>div>ul>img
     position: absolute;
     bottom : 0;
     width: 100%;
-    height: 10%;
+    line-height: 300%;
     vertical-align: middle;
     background-color: rgba(192,57,43,0.8);
     text-align: center;
@@ -162,27 +174,28 @@ nav>div>ul>img
     position: absolute;
     display: inline-block;
     margin-top: 200px;
-    padding: 20px;
+    padding: 0 100px;
     width: 100%;
     opacity: 0;
-    text-align: center;
+    text-align: justify;
     vertical-align: middle;
     color: #FFFFFF;
     font-weight: bold;
+    font-size: 160%;
 }
 #conteneur>div:hover
 {
-    width: 60%;
-    transition-duration: 1s;
-    -webkit-transition-duration: 1s;
+    width: 100%;
+    transition-duration: 2s;
+    -webkit-transition-duration: 2s;
 }
 #pendulaire:hover #txtpendulaire
 {
     opacity: 1;
-    transition-delay: 0.5s;
-    transition-duration: 1s;
-    -webkit-transition-delay: 0.5s;
-    -webkit-transition-duration: 1s;
+    transition-delay: 1.7s;
+    transition-duration: 0.4s;
+    -webkit-transition-delay: 1.7s;
+    -webkit-transition-duration: 0.4s;
 }
 #pendulaire:hover #grispendulaire
 {
@@ -225,21 +238,22 @@ nav>div>ul>img
     position: absolute;
     display: inline-block;
     margin-top: 200px;
-    padding: 20px;
+    padding: 0 100px;
     width: 100%;
     opacity: 0;
-    text-align: center;
+    text-align: justify;
     vertical-align: middle;
     color: #FFFFFF;
     font-weight: bold;
+    font-size: 160%;
 }
 #dechets:hover #txtdechets
 {
     opacity: 1;
-    transition-delay: 0.5s;
-    transition-duration: 1s;
-    -webkit-transition-delay: 0.5s;
-    -webkit-transition-duration: 1s;
+    transition-delay: 1.7s;
+    transition-duration: 0.4s;
+    -webkit-transition-delay: 1.7s;
+    -webkit-transition-duration: 0.4s;
 }
 #dechets:hover #grisdechets
 {
@@ -282,22 +296,23 @@ nav>div>ul>img
     position: absolute;
     display: inline-block;
     margin-top: 200px;
-    padding: 20px;
+    padding: 0 100px;
     width: 100%;
     opacity: 0;
-    text-align: center;
+    text-align: justify;
     vertical-align: middle;
     color: #FFFFFF;
     font-weight: bold;
+    font-size: 160%;
 }
 
 #concasseur:hover #txtconcasseur
 {
     opacity: 1;
-    transition-delay: 0.5s;
-    transition-duration: 1s;
-    -webkit-transition-delay: 0.5s;
-    -webkit-transition-duration: 1s;
+    transition-delay: 1.7s;
+    transition-duration: 0.4s;
+    -webkit-transition-delay: 1.7s;
+    -webkit-transition-duration: 0.4s;
 }
 #concasseur:hover #grisconcasseur
 {
@@ -340,21 +355,22 @@ nav>div>ul>img
     position: absolute;
     display: inline-block;
     margin-top: 200px;
-    padding: 20px;
+    padding: 0 100px;
     width: 100%;
     opacity: 0;
-    text-align: center;
+    text-align: justify;
     vertical-align: middle;
     color: #FFFFFF;
     font-weight: bold;
+    font-size: 160%;
 }
 #bois:hover #txtbois
 {
     opacity: 1;
-    transition-delay: 0.5s;
-    transition-duration: 1s;
-    -webkit-transition-delay: 0.5s;
-    -webkit-transition-duration: 1s;
+    transition-delay: 1.7s;
+    transition-duration: 0.4s;
+    -webkit-transition-delay: 1.7s;
+    -webkit-transition-duration: 0.4s;
 }
 #bois:hover #grisbois
 {
@@ -366,24 +382,30 @@ nav>div>ul>img
 /*LES VALEURS DE LA SAM DANS UNE FLEXBOX*/
 #valeurs
 {
+    background-color: rgba(192,57,43,0.9);
+    margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
-    margin-top: 6%;
-    width: 100%;
+    padding: 0 0px 20px 0px;
+    margin-top: 10%;
+    width: 80%;
 }
 #valeurs>p
 {
-    text-align: center;
     width: 100%;
-    margin-bottom: 3%;
+    text-align: center;
+    padding: 25px;
     font-size: 200%;
-    color: rgba(192,57,43,1);
+    color: #FFFFFF; /*rgba(192,57,43,1);*/
 }
 #valeurs>div
 {
+    background-color: #FFFFFF;
+    padding: 20px 15px;
+    margin: 0 7px;
     text-align: center;
-    width: 20%;
+    width: 23%;
 }
 #valeurs>div>img
 {
@@ -404,29 +426,42 @@ nav>div>ul>img
     color: rgba(192,57,43,1);
     font-weight: bold;
 }
-
+footer
+{
+    background-color: rgba(192,57,43,1);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 30px 0;
+    margin-top: 120px;
+    border-top: 7px solid #FFFFFF;
+}
+footer>div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    margin-top: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 200%;
+}
+#design
+{
+    width: 100%;
+    margin-top: 40px;
+    font-size: 80%;
+}
 /*LA CARTE GOOGLE MAP*/
 #carte
 {
-    text-align: center;
-    width: 100%;
-    margin: 100px auto;
+    border-left: 4px solid #FFFFFF;
+    border-right: 5px solid #FFFFFF;
+    padding: 0 20px;
+    height: 300px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

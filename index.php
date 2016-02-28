@@ -3,10 +3,10 @@
     <head>
         <meta charset="utf-8" />
 
-        <link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
 
-        <!-- Compiled and minified CSS -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="materialize/css/materialize.css"  media="screen,projection"/>
 
         <link rel="stylesheet" href="style.css" />
 
@@ -16,7 +16,8 @@
 
 
     <body>
-        <header>
+        <img src="img/concasseur.png" alt="image d'un concassseur en savoie" />
+        <header class="z-depth-4">
             <div class="onglet navbar-fixed-top">
                 <img id="imgonglet" src="img/onglet.png" alt="onglet contact de la société sam" />
                 <a href="mailto: contact@sam-maintenance.com"><p id="adressemail">contact@sam-maintenance.com</p></a>
@@ -65,8 +66,8 @@
             </div>
         </header>
 
-        <section id="valeurs">
-            <p>LES VALEURS DE LA SAM</p>
+        <section class="z-depth-4" id="valeurs">
+            <p>LES FORCES DE LA SAM</p>
             <div class="z-depth-4" id="delai">
                 <img src="img/delai.png" alt="icone de respect des delais" />
                 <p><span>DELAI</span>Nous sommes conscients des enjeux liés à l'arret d'une machine pour votre entreprise. C'est pourquoi nous nous engageons à respecter nos délais. Nous sommes à votre service afin de valoriser au maximum votre activité.</p>
@@ -86,9 +87,42 @@
         </section>
 
         <footer>
-            <div id="carte">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5577.396408374497!2d6.372640350015271!3d45.65688210217829!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x64e09b995a937fb5!2sS.a.m+Sarl!5e0!3m2!1sfr!2sfr!4v1456515558257" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <div>
+                <p>
+                    Delphine Giraud-Carrier<br/>
+                    Administration et RH<br/>
+                    06.50.15.15.03
+                </p>
             </div>
-        </footer>        
+
+            <div id="carte">
+                <!--<div id="carte">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5577.396408374497!2d6.372640350015271!3d45.65688210217829!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x64e09b995a937fb5!2sS.a.m+Sarl!5e0!3m2!1sfr!2sfr!4v1456515558257" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+            </div>
+
+            <div>
+                <p>
+                    Sébastien Giraud-Carrier<br/>
+                    Technique et commercial<br/>
+                    06.36.93.79.74
+                </p>
+            </div>
+            <div id="design">
+                <p>
+                    design by Joker
+                </p>
+            </div>
+
+        </footer>      
 
     </body>
+
+
+
+
+
+
+
+
+
+
