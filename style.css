@@ -5,6 +5,9 @@
     font-family: 'roboto', calibri, sans-serif;
     /*border: 1px solid blue;*/
 }
+html
+{
+}
 em
 {
     font-style: normal;
@@ -12,6 +15,7 @@ em
 body
 
 {
+    overflow-x: hidden;
     width: 100%;
 }
 body>img
@@ -87,6 +91,7 @@ nav>div>ul>img
 {
     position: absolute;
     left: 7px;
+    top: -10px;
     width: 17%;
     opacity: 0.85;
 }
@@ -113,7 +118,8 @@ nav>div>ul>img
     display: flex;
     justify-content: center;
     margin-top: 75px;
-    width: 100%;
+    margin-left: -7.5%;
+    width: 115%;
 }
 #conteneur>div
 {
@@ -127,6 +133,7 @@ nav>div>ul>img
     transition-duration: 2s;
     -webkit-transition-duration: 2s;
     border: 3px solid #FFFFFF;
+    transform: skewX(-15deg);
 }
 #slogan
 {
@@ -155,19 +162,22 @@ nav>div>ul>img
     -webkit-transition-delay: 0.5s;
     -webkit-transition-duration: 1s;
 }
-#pendulaire>h2
+#titrependulaire
 {
     position: absolute;
     display: inline-block;
     background-color: rgba(0,0,0,0.5);
     border-radius: 30px;
     padding: 10px 10px;
-    margin-top: 80px;
-    margin-left: 4%;
+    margin-top: 110px;
+    margin-left: 19%;
     text-align: center;
     color: #FFFFFF;
     font-size: 150%;
     font-weight: bold;
+    transform: skewX(15deg);
+    transition-duration: 2.8s;
+    -webkit-transition-duration: 2.8s;
 }
 #txtpendulaire
 {
@@ -182,15 +192,24 @@ nav>div>ul>img
     color: #FFFFFF;
     font-weight: bold;
     font-size: 160%;
+    transform: skewX(15deg);
 }
 #conteneur>div:hover
 {
-    width: 100%;
+    width: 70%;
     transition-duration: 2s;
     -webkit-transition-duration: 2s;
 }
+#pendulaire:hover #titrependulaire
+{
+    margin-left: 30%;
+    transition-duration: 3s;
+    -webkit-transition-duration: 2.8s;
+}
 #pendulaire:hover #txtpendulaire
 {
+    margin-left: 5%;
+    width: 100%;
     opacity: 1;
     transition-delay: 1.7s;
     transition-duration: 0.4s;
@@ -219,19 +238,22 @@ nav>div>ul>img
     -webkit-transition-delay: 0.5s;
     -webkit-transition-duration: 1s;
 }
-#dechets>h2
+#titredechets
 {
     position: absolute;
     display: inline-block;
     background-color: rgba(0,0,0,0.5);
     border-radius: 30px;
     padding: 10px 10px;
-    margin-top: 80px;
-    margin-left: 7%;
+    margin-top: 110px;
+    margin-left: 10%;
     text-align: center;
     color: #FFFFFF;
     font-size: 150%;
     font-weight: bold;
+    transform: skewX(15deg);
+    transition-duration: 2.8s;
+    -webkit-transition-duration: 2.8s;
 }
 #txtdechets
 {
@@ -246,6 +268,13 @@ nav>div>ul>img
     color: #FFFFFF;
     font-weight: bold;
     font-size: 160%;
+    transform: skewX(15deg);
+}
+#dechets:hover #titredechets
+{
+    margin-left: 30%;
+    transition-duration: 3s;
+    -webkit-transition-duration: 2.8s;
 }
 #dechets:hover #txtdechets
 {
@@ -277,19 +306,22 @@ nav>div>ul>img
     -webkit-transition-delay: 0.5s;
     -webkit-transition-duration: 1s;
 }
-#concasseur>h2
+#titreconcasseur
 {
     position: absolute;
     display: inline-block;
     background-color: rgba(0,0,0,0.5);
     border-radius: 30px;
     padding: 10px 10px;
-    margin-top: 80px;
-    margin-left: 7%;
+    margin-top: 110px;
+    margin-left: 21%;
     text-align: center;
     color: #FFFFFF;
     font-size: 150%;
     font-weight: bold;
+    transform: skewX(15deg);
+    transition-duration: 2.8s;
+    -webkit-transition-duration: 2.8s;
 }
 #txtconcasseur
 {
@@ -304,8 +336,14 @@ nav>div>ul>img
     color: #FFFFFF;
     font-weight: bold;
     font-size: 160%;
+    transform: skewX(15deg);
 }
-
+#concasseur:hover #titreconcasseur
+{
+    margin-left: 32%;
+    transition-duration: 3s;
+    -webkit-transition-duration: 2.8s;
+}
 #concasseur:hover #txtconcasseur
 {
     opacity: 1;
@@ -336,19 +374,22 @@ nav>div>ul>img
     -webkit-transition-delay: 0.5s;
     -webkit-transition-duration: 1s;
 }
-#bois>h2
+#titrebois
 {
     position: absolute;
     display: inline-block;
     background-color: rgba(0,0,0,0.5);
     border-radius: 30px;
     padding: 10px 10px;
-    margin-top: 80px;
+    margin-top: 110px;
     margin-left: 10%;
     text-align: center;
     color: #FFFFFF;
     font-size: 150%;
     font-weight: bold;
+    transform: skewX(15deg);
+    transition-duration: 2.8s;
+    -webkit-transition-duration: 2.8s;
 }
 #txtbois
 {
@@ -363,9 +404,26 @@ nav>div>ul>img
     color: #FFFFFF;
     font-weight: bold;
     font-size: 160%;
+    transform: skewX(15deg);
 }
+#conteneur:hover #titrebois
+{
+    margin-top: 195%;
+    transition-duration: 2.8s;
+    -webkit-transition-duration: 2.8s;
+}
+#bois:hover #titrebois
+{
+    margin-top: 110px;
+    margin-left: 25%;
+    transition-duration: 2.8s;
+    -webkit-transition-delay: -0.35s;
+    -webkit-transition-duration: 2.8s;
+}
+
 #bois:hover #txtbois
 {
+    width: 90%;
     opacity: 1;
     transition-delay: 1.7s;
     transition-duration: 0.4s;
@@ -459,10 +517,9 @@ footer>div
 {
     border-left: 4px solid #FFFFFF;
     border-right: 5px solid #FFFFFF;
-    padding: 0 20px;
+    padding: 0 50px;
     height: 300px;
 }
-
 
 
 

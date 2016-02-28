@@ -41,23 +41,23 @@
 
                 <div id="pendulaire">
                     <div id="grispendulaire"></div> 
-                    <h2>BROYEURS PENDULAIRES</h2>
+                    <h2 id="titrependulaire">BROYEURS PENDULAIRES</h2>
                     <p  id="txtpendulaire">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus nibh quis urna commodo laoreet. Mauris sit amet hendrerit elit. Pellentesque ut ligula ornare, bibendum metus a, rutrum leo. Quisque mi ante, suscipit a egestas sit amet, condimentum vitae tellus.</p>        
                 </div>
 
                 <div id="dechets">
                     <div id="grisdechets"></div> 
-                    <h2>BROYEURS DECHETS</h2>
+                    <h2 id="titredechets">BROYEURS DECHETS</h2>
                     <p  id="txtdechets">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus nibh quis urna commodo laoreet. Mauris sit amet hendrerit elit. Pellentesque ut ligula ornare, bibendum metus a, rutrum leo. Quisque mi ante, suscipit a egestas sit amet, condimentum vitae tellus.</p>   
                 </div> 
                 <div id="concasseur">
                     <div id="grisconcasseur"></div> 
-                    <h2>CONCASSEURS</h2>
+                    <h2 id="titreconcasseur">CONCASSEURS</h2>
                     <p  id="txtconcasseur">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus nibh quis urna commodo laoreet. Mauris sit amet hendrerit elit. Pellentesque ut ligula ornare, bibendum metus a, rutrum leo. Quisque mi ante, suscipit a egestas sit amet, condimentum vitae tellus.</p>   
                 </div> 
                 <div id="bois">
                     <div id="grisbois"></div> 
-                    <h2>BROYEURS BOIS</h2>
+                    <h2 id="titrebois">BROYEURS BOIS</h2>
                     <p  id="txtbois">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus nibh quis urna commodo laoreet. Mauris sit amet hendrerit elit. Pellentesque ut ligula ornare, bibendum metus a, rutrum leo. Quisque mi ante, suscipit a egestas sit amet, condimentum vitae tellus.</p>   
                 </div>
             </div>
@@ -96,8 +96,7 @@
             </div>
 
             <div id="carte">
-                <!--<div id="carte">
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5577.396408374497!2d6.372640350015271!3d45.65688210217829!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x64e09b995a937fb5!2sS.a.m+Sarl!5e0!3m2!1sfr!2sfr!4v1456515558257" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5577.396408374497!2d6.372640350015271!3d45.65688210217829!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x64e09b995a937fb5!2sS.a.m+Sarl!5e0!3m2!1sfr!2sfr!4v1456515558257" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
 
             <div>
