@@ -445,25 +445,25 @@ nav>div>ul>img
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 0 0px 20px 0px;
+    padding: 0 0px 15px 0px;
     margin-top: 10%;
-    width: 80%;
+    width: 87%;
 }
 #valeurs>p
 {
     width: 100%;
     text-align: center;
-    padding: 25px;
+    padding: 10px;
     font-size: 200%;
     color: #FFFFFF; /*rgba(192,57,43,1);*/
 }
 #valeurs>div
 {
     background-color: #FFFFFF;
-    padding: 20px 15px;
+    padding-top: 20px;
     margin: 0 7px;
     text-align: center;
-    width: 23%;
+    width: 23.5%;
 }
 #valeurs>div>img
 {
