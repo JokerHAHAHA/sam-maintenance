@@ -15,6 +15,7 @@ em
 body
 
 {
+    text-align: center;
     overflow-x: hidden;
     width: 100%;
 }
@@ -437,6 +438,10 @@ nav>div>ul>img
     -webkit-transition-duration: 1s;
 }
 
+/*/////////////////////////////
+          PAGE ACCUEIL
+//////////////////////////////*/
+
 /*LES VALEURS DE LA SAM DANS UNE FLEXBOX*/
 #valeurs
 {
@@ -522,5 +527,12 @@ footer>div
 }
 
 
+/*/////////////////////////////
+       PAGE PARTENAIRES
+//////////////////////////////*/
 
+.partenaires
+{
+    display: inline-block;
+}
 
