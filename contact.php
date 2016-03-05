@@ -19,3 +19,8 @@
         <img src="img/concasseur.png" alt="image d'un concassseur en savoie" />
         
         <?php include("header.php"); ?>
+        
+       
+       
+      <?php include("footer.php"); ?>
+      

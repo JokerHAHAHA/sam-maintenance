@@ -8,7 +8,7 @@
                 <div class="container">
                     <ul class="nav nav-pills">
                         <img src="img/logo.png" alt="logo de la societe sam en rhone alpes" />
-                        <li role="presentation"><a href="#">ACCUEIL</a></li>
+                        <li role="presentation"><a href="index.php">ACCUEIL</a></li>
                         <li role="presentation"><a href="chantiers.php">CHANTIERS</a></li>
                         <li role="presentation"><a href="devis.php">DEVIS</a></li>
                         <li role="presentation"><a href="partenaires.php">PARTENAIRES</a></li>

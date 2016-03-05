@@ -15,7 +15,6 @@ em
 body
 
 {
-    text-align: center;
     overflow-x: hidden;
     width: 100%;
 }
@@ -439,7 +438,7 @@ nav>div>ul>img
 }
 
 /*/////////////////////////////
-          PAGE ACCUEIL
+PAGE ACCUEIL
 //////////////////////////////*/
 
 /*LES VALEURS DE LA SAM DANS UNE FLEXBOX*/
@@ -527,12 +526,162 @@ footer>div
 }
 
 
+
+
+
+
+
+
 /*/////////////////////////////
-       PAGE PARTENAIRES
+PAGE DEVIS
+//////////////////////////////*/
+
+form
+{
+    background-color: rgba(192,57,43,0.9);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    margin-top: 10%;
+    padding: 12px 0;
+    width: 95%;
+}
+form>div
+{
+    margin: 50px 0;
+}
+#contnom, #contprenom, #contposte
+{
+    width: 30%;
+}
+#conttel, #contemail
+{
+    width: 45%;
+}
+label
+{
+    display: block;
+    color: white;
+    font-size: 150%;
+}
+input
+{
+    background-color: transparent;
+    padding-left: 7%;
+    margin-top: 3%; 
+    width: 100%;
+    height: 40px;
+    color: black;
+    border: none;
+    border-bottom: 5px solid white;
+}
+#sousformulaire
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: baseline
+    
+}
+#secteur
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 45%;
+}
+#secteur h4
+{
+    width: 100%;
+    color: white;
+    font-size: 160%;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+}
+#secteur>div
+{
+    margin: 15px 0;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 45%;
+}
+input[type=radio]
+{ 
+    width: 8%;
+    color:#CCCCFF; 
+    background-color:#CCCCFF; 
+    font-size:12px; 
+} 
+#secteur label
+{
+    padding-top: 5%;
+    padding-left: 5%;
+    width: 85%;
+    height: 100%;
+    font-size: 110%;
+}
+#contautre
+{
+    width: 200%;
+}
+#contmessage
+{
+    width: 45%;
+}
+#message
+{
+    width: 100%;
+    height: 300px;
+}
+#envoyer
+{
+    background-color: white;
+    border: 2px solid red;
+    padding: 15px 0;
+    margin-left: 37.5%; 
+    width: 25%;
+    height: auto;
+    margin-top: 100px;
+    color: red;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+
+
+/*/////////////////////////////
+PAGE PARTENAIRES
 //////////////////////////////*/
 
 .partenaires
 {
-    display: inline-block;
+    background-color: rgba(192,57,43,0.9);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    padding: 12px 0;
+    width: 95%;
+    color: #FFFFFF;
+}
+.m7
+{
+    margin: 0 12px;
+    width: 22%;
+    height: 
 }
 
+#valeurs
+{
+    background-color: rgba(192,57,43,0.9);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 0px 15px 0px;
+    margin-top: 10%;
+    width: 87%;
+}

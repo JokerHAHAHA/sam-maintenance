@@ -21,7 +21,46 @@
         <?php include("header.php"); ?>
 
         <div class="row partenaires">
-            <div class="col s12 m7">
+            <div class="s12 m7">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/partenaire.png">
+                    </div>
+                    <div class="card-content">
+                        <p>Description courte du Partianire 1</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Nom du partenaire</a>
+                    </div>
+                </div>
+            </div>
+            <div class="s12 m7">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/partenaire.png">
+                    </div>
+                    <div class="card-content">
+                        <p>Description courte du Partianire 1</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Nom du partenaire</a>
+                    </div>
+                </div>
+            </div>
+            <div class="s12 m7">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/partenaire.png">
+                    </div>
+                    <div class="card-content">
+                        <p>Description courte du Partianire 1</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Nom du partenaire</a>
+                    </div>
+                </div>
+            </div>
+            <div class="s12 m7">
                 <div class="card">
                     <div class="card-image">
                         <img src="img/partenaire.png">
@@ -37,4 +76,4 @@
         </div>
 
 
-       
+       <?php include("footer.php"); ?>

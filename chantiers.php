@@ -21,4 +21,6 @@
         <?php include("header.php"); ?>
 
 
-        
+        <img src="img/travaux.jpg" />
+
+        <?php include("footer.php"); ?>
