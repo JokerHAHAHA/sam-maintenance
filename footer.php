@@ -1,4 +1,4 @@
-<footer>
+<!--<footer>
     <div>
         <p>
             Delphine Giraud-Carrier<br/>
@@ -24,4 +24,4 @@
         </p>
     </div>
 
-</footer>
+</footer>-->

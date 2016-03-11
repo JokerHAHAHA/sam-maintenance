@@ -33,7 +33,6 @@ header
 {
     position: relative;
     width: 100%;
-    height: 645px;
     border-bottom: 7px solid #FFFFFF;
 }
 
@@ -633,19 +632,20 @@ input[type=radio]
 }
 #message
 {
+    padding: 2.5%;
+    background-color: #FFFFFF;
     width: 100%;
     height: 300px;
 }
 #envoyer
 {
-    background-color: white;
-    border: 2px solid red;
+    background-color: transparent;
     padding: 15px 0;
     margin-left: 37.5%; 
     width: 25%;
     height: auto;
     margin-top: 100px;
-    color: red;
+    color: white;
     font-weight: bold;
     font-size: 150%;
 }

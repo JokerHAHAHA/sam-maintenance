@@ -3,13 +3,16 @@
     <head>
         <meta charset="utf-8" />
 
+        <!--Import bootstrap.css-->
         <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
 
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="materialize/css/materialize.css"  media="screen,projection"/>
 
         <link rel="stylesheet" href="style.css" />
 
         <link rel="icon" type="image/png" href="img/logo.png" />
-        <title>SAM | Maintenance Industrielle | Rhone Alpes | Albertville</title>
+        <title>SAM | Maintenance Industrielle Broyeur| Rhone Alpes | Albertville</title>
     </head>
 
 
@@ -76,7 +79,7 @@
 
                 <div id="contmessage">
                     <label for="message">Demande détaillée :</label>
-                    <textarea id="message"></textarea>
+                    <textarea placeholder="Expliquez votre demande ici" id="message"></textarea>
                 </div>
 
                 <input id="envoyer" type="submit" value="Envoyer">
@@ -85,6 +88,8 @@
 
 
         <?php include("footer.php"); ?>
+
+        </body>
 
 
 
