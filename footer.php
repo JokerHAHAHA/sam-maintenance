@@ -1,9 +1,10 @@
-<!--<footer>
+<footer>
     <div>
         <p>
             Delphine Giraud-Carrier<br/>
             Administration et RH<br/>
-            06.50.15.15.03
+            06.50.15.15.03<br/>
+            giraudcarrier.d@sam-maintenance.com
         </p>
     </div>
 
@@ -15,13 +16,16 @@
         <p>
             Sébastien Giraud-Carrier<br/>
             Technique et commercial<br/>
-            06.36.93.79.74
+            06.36.93.79.74<br/>
+            giraudcarrier.s@sam-maintenance.com
         </p>
     </div>
-    <div id="design">
-        <p>
-            design by Joker
-        </p>
+    <div id="contdesign">
+        <a href="https://www.linkedin.com/in/alexandre-cottin-6b982427" target="_blank" class="joker">
+            <p>
+                design by Joker
+            </p>
+        </a>
     </div>
 
-</footer>-->
+</footer>

@@ -33,7 +33,6 @@ header
 {
     position: relative;
     width: 100%;
-    border-bottom: 7px solid #FFFFFF;
 }
 
 /*BARRE ROUGE FIXE TOUT EN HAUT*/
@@ -128,16 +127,17 @@ nav>div>ul>img
     overflow-y: hidden;
     overflow-x: hidden;
     width: 25%;
-    height: 640px;
+    height: 550px;
     transition-duration: 2s;
     -webkit-transition-duration: 2s;
     border: 3px solid #FFFFFF;
+    border-bottom: 7px solid #FFFFFF;
     transform: skewX(-15deg);
 }
 #slogan
 {
     position: absolute;
-    bottom : 0;
+    bottom : 7px;
     width: 100%;
     line-height: 300%;
     vertical-align: middle;
@@ -436,6 +436,13 @@ nav>div>ul>img
     -webkit-transition-duration: 1s;
 }
 
+
+
+
+
+
+
+
 /*/////////////////////////////
 PAGE ACCUEIL
 //////////////////////////////*/
@@ -487,34 +494,6 @@ PAGE ACCUEIL
     color: rgba(192,57,43,1);
     font-weight: bold;
 }
-footer
-{
-    background-color: rgba(192,57,43,1);
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
-    padding: 30px 0;
-    margin-top: 120px;
-    border-top: 7px solid #FFFFFF;
-}
-footer>div
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 33%;
-    margin-top: 10px;
-    text-align: center;
-    color: #FFFFFF;
-    font-size: 200%;
-}
-#design
-{
-    width: 100%;
-    margin-top: 40px;
-    font-size: 80%;
-}
 /*LA CARTE GOOGLE MAP*/
 #carte
 {
@@ -543,21 +522,36 @@ form
     flex-wrap: wrap;
     align-items: center;
     margin: auto;
-    margin-top: 10%;
-    padding: 12px 0;
-    width: 95%;
+    margin-top: 15%;
+    padding: 20px 50px;
+    width: 80%;
 }
 form>div
 {
     margin: 50px 0;
 }
-#contnom, #contprenom, #contposte
+form>h4
 {
-    width: 30%;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 200%;
+    color: #FFFFFF;
 }
+#contnom, #contprenom
+{
+    width: 25%;
+    margin: 5% 10%;
+}
+#contsociete, #contposte
+{
+    width: 25%;
+    margin: 5% 10%;
+}    
 #conttel, #contemail
 {
-    width: 45%;
+    width: 25%;
+    margin: 5% 0%;
 }
 label
 {
@@ -576,20 +570,13 @@ input
     border: none;
     border-bottom: 5px solid white;
 }
-#sousformulaire
-{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: baseline
-    
-}
 #secteur
 {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    width: 45%;
+    width: 25%;
+    margin: 5% 0%;
 }
 #secteur h4
 {
@@ -607,28 +594,25 @@ input
     flex-direction: row-reverse;
     width: 45%;
 }
-input[type=radio]
-{ 
-    width: 8%;
-    color:#CCCCFF; 
-    background-color:#CCCCFF; 
-    font-size:12px; 
-} 
-#secteur label
+select
 {
-    padding-top: 5%;
-    padding-left: 5%;
-    width: 85%;
-    height: 100%;
-    font-size: 110%;
-}
-#contautre
-{
-    width: 200%;
+    background-color: transparent;
+    padding: 5%;
+    border: 1px solid #FFFFFF;
+    color: white;
 }
 #contmessage
 {
-    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: baseline;
+    width: 90%;
+}
+#sujet
+{
+    width: 25%;
+    margin-bottom: 5%;
 }
 #message
 {
@@ -640,15 +624,47 @@ input[type=radio]
 #envoyer
 {
     background-color: transparent;
-    padding: 15px 0;
-    margin-left: 37.5%; 
+    padding: 15px 0; 
     width: 25%;
     height: auto;
-    margin-top: 100px;
+    margin: 5% 0;
     color: white;
     font-weight: bold;
     font-size: 150%;
 }
+#envoyer:hover
+{
+    border-color: rgb(255, 0, 0);
+}
+
+
+
+
+
+
+
+
+/*/////////////////////////////
+PAGE RECUPFORM
+//////////////////////////////*/
+
+
+.msg
+{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #FF0000;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -674,14 +690,241 @@ PAGE PARTENAIRES
     height: 
 }
 
-#valeurs
+
+
+
+
+
+
+
+
+
+
+
+/*/////////////////////////////
+PAGE CONTACT
+//////////////////////////////*/
+
+
+.coordonnees
 {
     background-color: rgba(192,57,43,0.9);
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-around;
+    -ms-align-items: center;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+    padding: 50px;
     margin: auto;
+    margin-top: 10%;
+}
+.coordonnees>h4
+{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 5%;
+    font-size: 200%;
+    color: #FFFFFF;
+}
+.personnes
+{
+    width: 31%;
+    font-size: 110%;
+}
+.personnes>p
+{
+    text-align: center;
+    color: white;
+    margin-bottom: 30%; 
+}
+.mailToContact
+{
+    text-decoration: none;
+    color: white;
+}
+.mailToContact:hover
+{
+    color: white;
+}
+.adresseSam
+{
+    width: 35%;
+    font-size: 120%;
+    border: 1px solid white;
+    padding: 3%;
+}
+.adresseSam>p
+{
+    color: white;
+    text-align: center; 
+}
+.map
+{
+    width: 50%;
+}
+.design
+{
+    width: 100%;
+    text-align: center;
+    margin-top: 4%;
+}
+.design>a
+{
+    font-size: 70%;
+    color: white;
+}
+.design>a:hover
+{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/*/////////////////////////////
+FOOTER
+//////////////////////////////*/
+
+footer
+{
+    background-color: rgba(192,57,43,1);
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 0 0px 15px 0px;
-    margin-top: 10%;
-    width: 87%;
+    width: 100%;
+    padding: 30px 0;
+    margin-top: 120px;
+    border-top: 7px solid #FFFFFF;
 }
+footer>div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    margin-top: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 120%;
+}
+#contdesign
+{
+    width: 100%;
+    margin-top: 40px;
+}
+.joker
+{
+    font-size: 70%;
+    color: white;
+}
+.joker:hover
+{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*/////////////////////////////
+FICHE
+//////////////////////////////*/
+
+
+
+.fiche
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: rgba(192,57,43,0.9);
+    width: 80%;
+    margin-top: 10%;
+    padding: 10px 50px 100px 50px;
+}
+.intraliens 
+{
+    width: 100%;
+}
+.intraliens>a
+{
+    color: white;
+    font-size: 80%;
+    margin: auto;
+
+}
+.intraliens>a>p
+{
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    padding-bottom: 1%;
+}
+.intraliens>a>p:hover
+{
+    border-bottom: 1px solid white;
+}
+.fiche>h3
+{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 200%;
+    color: #FFFFFF;
+    margin: 7% 0;
+}
+.fiche>iframe
+{
+    width: 45%;
+    margin: 2.5%;
+    margin: auto;
+}
+.fiche>p
+{
+    width: 45%;
+    color: white;
+    text-align: justify;
+    font-size: 120%;   
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
