@@ -75,6 +75,14 @@ header
 }
 
 /*LA BARRE DE NAVIGATION FIXE*/
+
+/*On masque la navbar mobile*/
+.mobile
+{
+    display: none;
+}
+
+
 .navbar
 {
     height: 53px;
@@ -920,10 +928,168 @@ FICHE
 
 
 
+/*/////////////////////////////
+RESPONSIVE
+//////////////////////////////*/
+
+@media (max-width: 1000px){
+
+    .mobile
+    {
+        display: block;
+    }
+    .large
+    {
+        display: none;
+    }
+    html:before
+    {
+        background-image: url("./img/fond_mobile.jpg");
+        opacity: 0.3;
+        background-repeat: repeat-y;
+        -webkit-background-size: cover;
+        background-size: cover;
+        content: " ";
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        height: 100%;
+        position: fixed;
+        z-index: -1;   
+    }
+    
 
 
+    /*//////////////////
+    ACCUEIL
+    //////////////////*/    
+    #imgonglet
+    {
+        height: 100px;
+    }
+    #adressemail
+    {
+        font-size: 250%;
+        left: 7%;
+    }
+    #num
+    {
+        right: 7%;
+        top: 4.5px;
+        font-size: 260%;
+    }
+    .navbar
+    {
+        height: auto;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 2%;
+    }
+    .container
+    {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        padding-top: 5%;
+        padding-left: 1.5%;
+    }
+    ul
+    {
+        width: 100%;
+    }
+    .nav>li
+    {
+        padding-top: 1%;
+        margin: 3% 0;
+        width: 65%;
+        height: 50%;
+    }
+    .nav>.petit
+    {
+        width: 31%;
+    }
+    .nav>.moyen
+    {
+        width: 36%;
+    }
+    .nav>li>a
+    {
+        margin: auto 0;
+        text-align: center;
+        font-size: 305%;
+        width: 100%;
+    }
 
-
+    /*LES IMAGES DU HEADER*/
+    #conteneur
+    {
+        display: none;
+    }
+    #slogan
+    {
+        display: none;
+    }
+    /*VALEURS*/
+    #valeurs
+    {
+        background-color: rgba(192,57,43,0.2);
+        margin-top: 35%;
+        width: 100%;
+    }
+    #valeurs>p
+    {
+        margin: 7% 9%;
+        background-color: rgba(192,57,43,1);
+        font-size: 450%;
+        padding: 10% 0;
+    }
+    #valeurs>div
+    {
+        width: 82%;
+        margin-bottom: 2%;
+    }
+    #valeurs>div>p
+    {
+        text-align: center;
+        font-size: 300%;
+    }
+    footer
+    {
+        padding-top: 50%;
+        margin-top: -394px;
+    }
+    footer>div
+    {
+        border-bottom: 2px solid white;
+        width: 100%;
+        padding-bottom: 11%;
+    }
+    .contcoordonnees
+    {
+        margin: 5% 0px;
+    }
+    .contcoordonnees>p
+    {
+        font-size: 240%;
+        width: 100%;
+    }
+    #carte
+    {
+        width: 100%;
+        border: none;
+        order: 3;
+    }
+    #carte>iframe
+    {
+        width: 80%;
+        height: 100%;
+    }
+    #contdesign
+    {
+        order: 4;
+    }
+}
 
 
 

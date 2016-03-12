@@ -16,7 +16,7 @@
 
 
 <body>
-    <img src="img/concasseur.png" alt="image d'un concassseur en savoie" />
+    <img class="large" src="img/concasseur.png" alt="image d'un concassseur en savoie" />
 
     <header class="z-depth-4">
         <div class="onglet navbar-fixed-top">
@@ -24,7 +24,9 @@
             <a href="mailto: contact@sam-maintenance.com"><p id="adressemail">contact@sam-maintenance.com</p></a>
             <p id="num">04 79 37 16 29</p>
         </div>
-        <nav class="navbar navbar-default navbar-fixed-top">
+
+        <!-- NAV BAR GRAND ECRAN -->
+        <nav class="large navbar navbar-default navbar-fixed-top">
             <div class="container">
                 <ul class="nav nav-pills">
                     <img src="img/logo.png" alt="logo de la societe sam en rhone alpes" />
@@ -34,6 +36,19 @@
                     <li role="presentation"><a href="partenaires.php">PARTENAIRES</a></li>
                     <li role="presentation"><a href="affaires.php">BONNES AFFAIRES</a></li>
                     <li role="presentation"><a href="contact.php">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- NAV BAR MOBILE -->
+        <nav class="mobile navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <ul class="nav nav-pills">
+                    <li class="petit" role="presentation"><a href="index.php">ACCUEIL</a></li>
+                    <li class="petit" role="presentation"><a href="devis.php">DEVIS</a></li>
+                    <li class="moyen" role="presentation"><a href="partenaires.php">PARTENAIRES</a></li><br />
+                    <li role="presentation"><a href="affaires.php">BONNES AFFAIRES</a></li>
+                    <li class="petit" role="presentation"><a href="contact.php">CONTACT</a></li>
                 </ul>
             </div>
         </nav>
@@ -59,17 +74,17 @@
             </a></div>
 
             <div id="bois"><a href="bois.php">
-               <div id="grisbois"></div> 
-               <h2 id="titrebois">BROYEURS BOIS</h2>
-               <p  id="txtbois">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus nibh quis urna commodo laoreet. Mauris sit amet hendrerit elit. Pellentesque ut ligula ornare, bibendum metus a, rutrum leo. Quisque mi ante, suscipit a egestas sit amet, condimentum vitae tellus.</p>   
-           </a></div>
-       </div>
-       <div id="slogan">
-           <p>Broyez sans limite !</p>
-       </div>
-   </header>
+             <div id="grisbois"></div> 
+             <h2 id="titrebois">BROYEURS BOIS</h2>
+             <p  id="txtbois">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus nibh quis urna commodo laoreet. Mauris sit amet hendrerit elit. Pellentesque ut ligula ornare, bibendum metus a, rutrum leo. Quisque mi ante, suscipit a egestas sit amet, condimentum vitae tellus.</p>   
+         </a></div>
+     </div>
+     <div id="slogan">
+         <p>Broyez sans limite !</p>
+     </div>
+ </header>
 
-   <section class="z-depth-4" id="valeurs">
+ <section class="z-depth-4" id="valeurs">
     <p>LES FORCES DE LA SAM</p>
     <div class="z-depth-4" id="delai">
         <img src="img/delai.png" alt="icone de respect des delais" />
@@ -85,7 +100,7 @@
     </div>
     <div class="z-depth-4" id="conseils">
         <img src="img/conseils.png" alt="icone de coneils professionnels" />
-        <p><span>CONSEILS</span>L'enjeu est fort : un broyeur industriel en panne crée rapidement des manques à gagner importants et les investissements sont non négligeables.Il est crucial de faire les bon choix de maintenance, de pièces détachées et de gestion des pannes. Nous vous conseillerons dans vos prises de décision liés à vos problématiques.</p>
+        <p><span>CONSEILS</span>L'enjeu est fort : un broyeur industriel en panne crée rapidement des manques à gagner importants et les investissements sont non négligeables.Il est crucial de faire les bon choix de maintenance, de pièces détachées et de gestion des pannes.</p>
     </div>
 </section>
 
