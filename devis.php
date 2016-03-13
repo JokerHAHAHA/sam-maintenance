@@ -20,7 +20,7 @@
 
     <?php include("header.php"); ?>
 
-    <img src="img/concasseur.png" alt="image d'un concassseur en savoie" />
+    <img class="large" src="img/concasseur.png" alt="image d'un concassseur en savoie" />
 
     <form name="formulaire" method="post" action="formRecup.php">
         <h4>DEMANDE DE DEVIS</h4>

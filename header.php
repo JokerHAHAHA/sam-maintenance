@@ -32,4 +32,4 @@
         </div>
     </nav>
 </header>
-<img src="img/travaux.jpg" />
+<img class="large" src="img/travaux.jpg" />
