@@ -1132,9 +1132,42 @@ RESPONSIVE
         font-size: 500%;
         padding-bottom: 4%;
     }
-
-
-
+    .coordonnees
+    {
+        margin-top: 34%;
+        background-color: rgba(192,57,43,0.5);
+        width: 100%;
+    }
+    .coordonnees>h4
+    {
+        margin: 7% 9%;
+        margin-bottom: 20%;
+        background-color: rgba(192,57,43,1);
+        font-size: 450%;
+        padding: 10% 0;
+    }
+    .personnes 
+    {
+        width: 100%;
+    }
+    .adresseSam, .map
+    {
+        width: 82%;
+    }
+    .adresseSam>p
+    {
+        font-size: 250%;
+    }
+    .map
+    {
+        text-align: center;
+    }
+    .map>iframe
+    {
+        margin-top: 20%;
+        width: 100%;
+        height: 600px;
+    }
 
 
     footer

@@ -16,7 +16,7 @@
 
 
 <body>
-    <img src="img/concasseur.png" alt="image d'un concassseur en savoie" />
+    <img class="large" src="img/concasseur.png" alt="image d'un concassseur en savoie" />
 
     <?php include("header.php"); ?>
 
